@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="github"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/C_CODE/github/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/C_CODE/MING/MinGW/bin/mingw32-make.exe -f &quot;D:/C_CODE/github/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/C_CODE/MING/MinGW/bin/mingw32-make.exe -f &quot;D:/C_CODE/github/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/C_CODE/MING/MinGW/bin/mingw32-make.exe -f &quot;D:/C_CODE/github/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/C_CODE/MING/MinGW/bin/mingw32-make.exe -f &quot;D:/C_CODE/github/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="github">
+				<Option output="D:/C_CODE/github/cmake-build-debug/github.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/C_CODE/github/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\c_code\ming\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="d:\c_code\ming\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="d:\c_code\ming\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/C_CODE/MING/MinGW/bin/mingw32-make.exe -f &quot;D:/C_CODE/github/cmake-build-debug/Makefile&quot;  VERBOSE=1 github"/>
+					<CompileFile command="D:/C_CODE/MING/MinGW/bin/mingw32-make.exe -f &quot;D:/C_CODE/github/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/C_CODE/MING/MinGW/bin/mingw32-make.exe -f &quot;D:/C_CODE/github/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/C_CODE/MING/MinGW/bin/mingw32-make.exe -f &quot;D:/C_CODE/github/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="github/fast">
+				<Option output="D:/C_CODE/github/cmake-build-debug/github.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/C_CODE/github/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\c_code\ming\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="d:\c_code\ming\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="d:\c_code\ming\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/C_CODE/MING/MinGW/bin/mingw32-make.exe -f &quot;D:/C_CODE/github/cmake-build-debug/Makefile&quot;  VERBOSE=1 github/fast"/>
+					<CompileFile command="D:/C_CODE/MING/MinGW/bin/mingw32-make.exe -f &quot;D:/C_CODE/github/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/C_CODE/MING/MinGW/bin/mingw32-make.exe -f &quot;D:/C_CODE/github/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/C_CODE/MING/MinGW/bin/mingw32-make.exe -f &quot;D:/C_CODE/github/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/C_CODE/github/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/C_CODE/MING/MinGW/bin/mingw32-make.exe -f &quot;D:/C_CODE/github/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/C_CODE/MING/MinGW/bin/mingw32-make.exe -f &quot;D:/C_CODE/github/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/C_CODE/MING/MinGW/bin/mingw32-make.exe -f &quot;D:/C_CODE/github/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/C_CODE/MING/MinGW/bin/mingw32-make.exe -f &quot;D:/C_CODE/github/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/C_CODE/github/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/C_CODE/MING/MinGW/bin/mingw32-make.exe -f &quot;D:/C_CODE/github/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/C_CODE/MING/MinGW/bin/mingw32-make.exe -f &quot;D:/C_CODE/github/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/C_CODE/MING/MinGW/bin/mingw32-make.exe -f &quot;D:/C_CODE/github/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/C_CODE/MING/MinGW/bin/mingw32-make.exe -f &quot;D:/C_CODE/github/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/C_CODE/github/main.c">
+			<Option target="github"/>
+		</Unit>
+		<Unit filename="D:/C_CODE/github/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
